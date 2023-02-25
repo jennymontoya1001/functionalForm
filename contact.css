@@ -1,0 +1,44 @@
+body{
+    background-color: #D95B92;
+}
+
+form{
+    background-color: white;
+    max-width: 40%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
+label{
+    vertical-align: top;
+}
+
+textarea{
+    resize:none;
+}
+
+form input{
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+form button{
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border: none;
+    background: #D95B92;
+}
+
+.tag{
+    color: #D95B92;
+}
+
+#mail{
+    opacity: 0;
+}
