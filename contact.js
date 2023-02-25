@@ -5,7 +5,7 @@ const handleSubmit = (e) => {
    e.preventDefault();
    const form = new FormData($form);
    $mail.setAttribute('href',`mailto:jennyjj1001@gmail.com?subject=${form.get('name').trim()}
-   ${form.get('email')}&body=${form.get('message')}`)
+   ${form.get('email').trim()}&body=${form.get('message').trim()}`)
    $mail.click();
 
 }
